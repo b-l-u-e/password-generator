@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!--  show notification -->
+
+      <div id="notification" class="notification">
+        Text copied to clipboard!
+      </div>
+
+      <div class="headline">
+        <div>
+          <h1>Generate a <span>random password</span></h1>
+          <h3>Never use an insecure password again!</h3>
+        </div>
+        
+        <button id="toggleButton">Toggle Dark / light mode</button>
+      </div>
+
+      <div class="generator">
+        <button id="generate-btn">Generate passwords</button>
+
+        <!--  toggle section -->
+        <div class="toggle-section">
+          <label>
+            <input type="checkbox" id="include-symbols" />
+            Include symbols
+          </label>
+          <label>
+            <input type="checkbox" id="include-numbers" />
+            Include numbers
+          </label>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- input section -->
+
+      <div class="input-section">
+        <div class="input">
+          <input type="text" id="first-field" readonly />
+          <i class="fa fa-clipboard icon"></i>
+        </div>
+        <div class="input">
+          <input type="text" id="second-field" readonly />
+          <i class="fa fa-clipboard icon"></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
