@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  min-width: 320px;
+  max-width: 1400px;
   font-size: 16px;
   display: flex;
   justify-content: center;
