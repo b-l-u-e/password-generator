@@ -103,6 +103,7 @@ input {
   transform: translateY(-50%);
   right: 1rem;
   color: #d1d5db;
+  padding: 0.5rem;
 }
 
 .icon:hover {
@@ -281,6 +282,7 @@ input[type="checkbox"] {
 
   input {
     margin-right: 0.6rem;
+    padding: 0.5rem;
     /* width: 100% */
     /* max-width: 600px; */
   }
