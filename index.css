@@ -274,8 +274,15 @@ input[type="checkbox"] {
     width: 100%;
   }
 
-  input {
+  /* .input {
     max-width: 600px;
+    margin: 0 auto;
+  } */
+
+  input {
+    margin-right: 0.6rem;
+    /* width: 100% */
+    /* max-width: 600px; */
   }
 
   
